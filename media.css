@@ -1,0 +1,47 @@
+.container{
+    grid-template-rows: repeat(4,1fr);
+    height: 200px;
+    
+}
+.container2{
+    grid-template-rows: repeat(5,1fr);
+    height: 200px;
+    
+}
+.container3{
+    grid-template-rows: repeat(4,1fr);
+    height: 200px;
+    
+}
+
+.item {
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.item img {
+    height: 50px;
+    width: 50px;
+    margin: 10px 15px;
+}
+
+.item:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.container4 {
+    grid-template-rows: repeat(4,1fr);
+    height: 200px;
+}
+
+.container4 h2 {
+    color: white;
+}
+
+.container5{
+    grid-template-rows: 3fr 3fr 3fr;
+    height: 200px;
+
+}
